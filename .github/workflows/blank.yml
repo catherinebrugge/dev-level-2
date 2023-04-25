@@ -45,18 +45,18 @@ jobs:
           servers: |
             [{
                 "id": "anypoint-exchange-v3",
-                "username": "${{ secrets.ANYPOINT_USERNAME }}",
-                "password": "${{ secrets.ANYPOINT_PASSWORD }}"
+                "username": "${{ secrets.ANYPOINT_USERNAM }}",
+                "password": "${{ secrets.ANYPOINT_PASSWOR }}"
             },
             {
                 "id": "cloudhub-deploy",
-                "username": "${{ secrets.ANYPOINT_USERNAME }}",
-                "password": "${{ secrets.ANYPOINT_PASSWORD }}"
+                "username": "${{ secrets.ANYPOINT_USERNAM }}",
+                "password": "${{ secrets.ANYPOINT_PASSWOR }}"
             },
             {
               "id": "anypoint-exchange-v3-student-deployment",
-              "username": "${{ secrets.ANYPOINT_USERNAME }}",
-              "password": "${{ secrets.ANYPOINT_PASSWORD }}"
+              "username": "${{ secrets.ANYPOINT_USERNAM }}",
+              "password": "${{ secrets.ANYPOINT_PASSWOR }}"
             },
             {
                 "id": "releases-ee",
@@ -90,13 +90,13 @@ jobs:
         servers: |
           [{
               "id": "anypoint-exchange-v3",
-              "username": "${{ secrets.ANYPOINT_USERNAME }}",
-              "password": "${{ secrets.ANYPOINT_PASSWORD }}"
+              "username": "${{ secrets.ANYPOINT_USERNAM }}",
+              "password": "${{ secrets.ANYPOINT_PASSWOR }}"
           },
           {
               "id": "anypoint-exchange-v3-student-deployment",
-              "username": "${{ secrets.ANYPOINT_USERNAME }}",
-              "password": "${{ secrets.ANYPOINT_PASSWORD }}"
+              "username": "${{ secrets.ANYPOINT_USERNAM }}",
+              "password": "${{ secrets.ANYPOINT_PASSWOR }}"
           },
           {
                 "id": "releases-ee",
